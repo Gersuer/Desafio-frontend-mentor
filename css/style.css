@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/*font-family: 'Outfit', sans-serif;*/
+
+*{
+    margin: 0;  
+    padding: 0;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%);
+    width: 70vh;
+    margin: auto;
+    margin-top: 70px;    
+}
+
+.container{   
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    padding: none;
+    margin-top: 70px;
+    border-radius: 15px;  
+}
+
+.imagem{
+    align-items: center;    
+}
+
+.imagem-cubo{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.paragrafo{    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.paragrafo-texto{
+      
+}
+
+.paragrafo-texto-1{
+    
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: hsl(0, 0%, 100%);    
+}
+
+.paragrafo-texto-2{
+    
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);   
+    margin-top: 10px; 
+}
+
+.valores{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    border-bottom: solid hsl(215, 51%, 70%) 1px;
+}
+
+.valores-eth{
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 20px;
+}
+
+.valores-dias{
+    color: hsl(215, 51%, 70%); 
+}
+
+.rodape{
+    display: flex;
+    width: 360px;
+    margin-top: 20px;
+    align-items: flex-start;
+        
+}
+
+.rodape-img{
+    width: 32px;
+    height: 32px;
+}
+
+.rodape-autor{
+
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
+
